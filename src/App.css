@@ -1,0 +1,130 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  width: 100%;
+  padding: 1rem 0;
+  z-index: 1000;
+  position: fixed;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+ 
+}
+
+nav li {
+  margin: 0 1rem;
+ 
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  font-style: italic;
+  
+}
+
+section {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+/* home css*/
+
+.img{
+  width: 100%;
+  height: 230px;
+ margin-left: 170%;
+  border-radius: 40px;
+}
+.abb {
+  font-style:italic;
+  
+color: honeydew;
+padding-bottom: 30%;
+}
+.react{
+  font-size: 90px;
+  padding-left: 20px;
+  justify-content: space-between;
+
+}
+.text{
+  direction: ltr;
+
+}
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+.left{
+  flex: 1 1 45%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.right{
+  flex: 1 1 45%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.right img{
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+@media (max-width: 768px) {
+  .container{
+    flex-direction: column;
+  }
+
+  .left,
+  .right {
+    flex: 1 1 100%;
+  }
+}
+
+.icon-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  padding: 13px;
+  padding-left: 50px;
+}
+.highlight{
+  color: red;
+  font-size: 50px;
+  font-style: oblique;
+}
+.large{
+  font-style: italic;
+  font-size: 50px;
+  padding-bottom: 30px;
+  padding-left: 14%;
+}
+.para{
+  font-style: italic;
+  font-size: 30px;
+}
+/*footer*/
+.footer{
+  height: 500px;
+  background-color:black;
+}
+
+
